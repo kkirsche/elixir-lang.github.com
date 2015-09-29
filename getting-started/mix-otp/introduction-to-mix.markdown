@@ -93,6 +93,7 @@ defmodule KV.Mixfile do
 
   def project do
     [app: :kv,
+     elixir: "~> 1.0",
      version: "0.0.1",
      deps: deps]
   end
